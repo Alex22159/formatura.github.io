@@ -1,0 +1,55 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    background-image: url(./kmet.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+}
+
+.container {
+    max-width: 600px; /* Largura máxima para telas de 6.1 polegadas */
+    margin: 0 auto;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 30px;
+    text-decoration:underline;
+    padding: 40px;
+    border-radius: 20px;
+    background-color:rgba(0, 0, 0, 0.207);
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-weight: bold;
+    
+   
+}
+
+/* Estilos para diferentes tamanhos de tela */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+}
+
+@font-face {
+    font-family:'Bing Bam';
+    src: url(./Bing\ Bam\ Boum.ttf);
+    
+}
+
+#frase{
+    padding: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family:Bing Bam;
+    font-size: 60px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    color:rgba(0, 0, 0, 0.808);
+}
+
+/* Outros estilos conforme necessário */
